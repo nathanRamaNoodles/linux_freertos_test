@@ -18,6 +18,6 @@ add_compile_options(
     -Wno-unused-result
 )
 
-set(EXTRA_COMPONENT_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/components)
+set(EXTRA_COMPONENT_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/components/freertos)
 set(COMPONENTS main)
 project(linux_freertos_test)
